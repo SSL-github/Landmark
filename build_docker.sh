@@ -1,3 +1,3 @@
 #! /bin/bash
 
-sudo docker build . -t Yonsei-landmark
+sudo docker build . -t yonsei-landmark
