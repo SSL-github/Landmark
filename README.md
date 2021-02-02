@@ -1,1 +1,1 @@
-# Landmark
+# Korea Landmarks Dataset
