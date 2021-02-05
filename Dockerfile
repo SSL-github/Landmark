@@ -8,7 +8,7 @@ RUN git clone https://github.com/SSL-github/Landmark.git
 
 #RUN git clone https://github.com/tensorflow/models.git
 
-WORKDIR /Landmark
+WORKDIR /Landmark0205
 
 RUN python -m pip install --upgrade pip
 
