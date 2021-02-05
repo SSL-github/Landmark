@@ -141,14 +141,14 @@ if __name__ == '__main__':
   parser.add_argument(
       '--list_images_path',
       type=str,
-      default='/home/smart02/LM/research/delf/delf/python/training/image_list_yonsei_index.txt',
+      default='/home/landmark3/image_list_yonsei_index.txt',
       help="""
       Path to list of images whose DELF features will be extracted.
       """)
   parser.add_argument(
       '--config_path',
       type=str,
-      default='/home/smart02/LM/research/delf/delf/python/examples/delf_config_anes.pbtxt')
+      default='/home/landmark3/delf_config.pbtxt')
   parser.add_argument(
       '--output_dir',
       type=str,
