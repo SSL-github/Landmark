@@ -1,3 +1,3 @@
 #! /bin/bash
 
-sudo docker run -it --name yonsei -v /home/smart02/Yonsei_Dataset/:/Landmark/data --gpus all yonsei-landmark
+sudo docker run -it --name nia -v /home/smart30/Yonsei_Dataset/train:/Last_Land/data --gpus all nia-landmark
