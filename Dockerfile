@@ -6,11 +6,13 @@ RUN apt-get update && apt-get install -y git
 
 RUN git clone https://github.com/SSL-github/Landmark.git
 
-RUN git clone https://github.com/tensorflow/models.git
+#RUN git clone https://github.com/tensorflow/models.git
 
-WORKDIR /Last_Land
+WORKDIR /Landmark
 
 RUN python -m pip install --upgrade pip
+
+#RUN pip install -r requirements.txt
 
 RUN python -m pip install -r requirements.txt
 
